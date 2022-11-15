@@ -1,0 +1,9 @@
+const nombre = 'Diego';
+const apellido = 'Fernandez';
+const estudiante = `${nombre} ${apellido}`;
+const estudianteMayus = estudiante.toUpperCase();
+const estudianteMinus = estudiante.toLowerCase();
+const countEstudiante = estudiante.length;
+const primeraLetra = nombre.charAt(0);
+const ultimaLetra = apellido.charAt(apellido.length - 1);
+const existePalabra = nombre.includes('Diego');
