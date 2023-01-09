@@ -9,5 +9,3 @@ function getFibonacciSequence(num) {
 }
 
 const fibonacci = getFibonacciSequence(6);
-
-console.log(fibonacci);
